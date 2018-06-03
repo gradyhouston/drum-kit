@@ -1,6 +1,3 @@
-// JavaScript30 - Day 1
-// JavaScript DrumKit
-
 
   function playSound(event) {
       var audio = document.querySelector(`audio[data-key="${event.keyCode}"]`);
